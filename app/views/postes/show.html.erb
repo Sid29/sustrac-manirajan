@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Titre:</strong>
+  <%= @poste.titre %>
+</p>
+
+<p>
+  <strong>Contenu:</strong>
+  <%= @poste.contenu %>
+</p>
+
+<%= link_to 'Edit', edit_poste_path(@poste) %> |
+<%= link_to 'Back', postes_path %>
